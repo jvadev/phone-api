@@ -8,6 +8,4 @@ import org.springframework.test.context.ActiveProfiles
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @ActiveProfiles(profiles = ["test"])
-abstract class AbstractIT: FunSpec() {
-//    override fun extensions() = listOf(SpringExtension)
-}
+abstract class AbstractIT: FunSpec()
