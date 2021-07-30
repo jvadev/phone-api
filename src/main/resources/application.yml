@@ -1,0 +1,9 @@
+logging.level.reactor.netty.http.client: DEBUG
+
+logging:
+  level:
+    org.springframework.web.reactive.function.client.ExchangeFunctions: DEBUG
+    reactor.netty.http.client.HttpClient: DEBUG
+
+
+
